@@ -12,5 +12,8 @@ public class PersonDto {
     private String full_name;
     private String address;
     private String phone_number;
+    
+    public PersonDto(String full_name, String address, String phone_number) {
+    }
 
 }
