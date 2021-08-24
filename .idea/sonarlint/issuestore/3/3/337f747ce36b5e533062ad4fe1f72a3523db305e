@@ -1,0 +1,11 @@
+
+wsquid:UselessImportCheck"GRemove this unused import 'org.springframework.jdbc.core.JdbcTemplate'.(å ê‹ÿÿÿÿÿ8Î¹ñ±·/
+jsquid:S3305&"LInject this field value directly into "step1", the only method that uses it.(ô‚àË8Î¹ñ±·/
+…squid:UselessImportCheck"ZRemove this unused import 'org.springframework.batch.item.file.mapping.DefaultLineMapper'.(Äˆ‚È8Î¹ñ±·/
+€squid:UselessImportCheck	"PRemove this unused import 'org.springframework.batch.core.JobExecutionListener'.(›º–Åþÿÿÿÿ8Î¹ñ±·/
+Vsquid:S38780"8Remove this array creation and simply pass the elements.(ŽÜÖˆ8Î¹ñ±·/
+Œsquid:UselessImportCheck"aRemove this unused import 'org.springframework.batch.item.file.transform.DelimitedLineTokenizer'.(›÷œÜ8Î¹ñ±·/
+rsquid:S3305#"TInject this field value directly into "importUserJob", the only method that uses it.(ÿ£î°8Î¹ñ±·/
+Jsquid:S35991",Use another way to initialize this instance.(ÄïäÖ8Î¹ñ±·/
+wsquid:S11711"YMove the contents of this initializer to a standard constructor or to field initializers.(ÄïäÖ8Î¹ñ±·/
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÊçÜ
