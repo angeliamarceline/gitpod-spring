@@ -9,5 +9,5 @@ public interface PersonService {
     public ResponseEntity<?> getPerson(Integer id);
     public ResponseEntity<?> insertPerson(PersonDto dto);
     public ResponseEntity<?> updatePerson(PersonDto dto, Integer id);
-    public ResponseEntity<?> deletePerson(Integer id);
+    // public ResponseEntity<?> deletePerson(Integer id);
 }

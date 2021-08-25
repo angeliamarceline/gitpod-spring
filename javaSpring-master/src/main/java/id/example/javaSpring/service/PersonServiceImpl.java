@@ -119,35 +119,35 @@ public class PersonServiceImpl implements PersonService{
         }
     }
 
-    @Override
-    public ResponseEntity<?> deletePerson(Integer id) {
-        SchemaDto schemaDto = new SchemaDto();
-        ErrorMessage errorMessage = new ErrorMessage();
-        ErrorSchema errorSchema = new ErrorSchema();
+    // @Override
+    // public ResponseEntity<?> deletePerson(Integer id) {
+    //     SchemaDto schemaDto = new SchemaDto();
+    //     ErrorMessage errorMessage = new ErrorMessage();
+    //     ErrorSchema errorSchema = new ErrorSchema();
 
-        try {
-            Person person = personRepository.findById(id).get();
-            person.setDeleted(true);
-            personRepository.save(person);
+    //     try {
+    //         Person person = personRepository.findById(id).get();
+    //         person.setDeleted(true);
+    //         personRepository.save(person);
 
-            errorMessage.setEnglish("Success");
-            errorMessage.setIndonesian("Berhasil");
+    //         errorMessage.setEnglish("Success");
+    //         errorMessage.setIndonesian("Berhasil");
 
-            errorSchema.setError_code(HttpStatus.ACCEPTED.toString());
-            errorSchema.setError_message(errorMessage);
+    //         errorSchema.setError_code(HttpStatus.ACCEPTED.toString());
+    //         errorSchema.setError_message(errorMessage);
 
-            schemaDto.setError_schema(errorSchema);
-            schemaDto.setOutput_schema(person);
-            return ResponseEntity.ok().body(schemaDto);
-        } catch (Exception e) {
-            errorMessage.setEnglish("Failed");
-            errorMessage.setIndonesian("Gagal");
+    //         schemaDto.setError_schema(errorSchema);
+    //         schemaDto.setOutput_schema(person);
+    //         return ResponseEntity.ok().body(schemaDto);
+    //     } catch (Exception e) {
+    //         errorMessage.setEnglish("Failed");
+    //         errorMessage.setIndonesian("Gagal");
 
-            errorSchema.setError_code(HttpStatus.INTERNAL_SERVER_ERROR.toString());
-            errorSchema.setError_message(errorMessage);
+    //         errorSchema.setError_code(HttpStatus.INTERNAL_SERVER_ERROR.toString());
+    //         errorSchema.setError_message(errorMessage);
 
-            schemaDto.setError_schema(errorSchema);
-            return ResponseEntity.ok().body(schemaDto);
-        }
-    }
+    //         schemaDto.setError_schema(errorSchema);
+    //         return ResponseEntity.ok().body(schemaDto);
+    //     }
+    // }
 }

@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Data
 @NoArgsConstructor
-@Table(name = "person_tbl")
+@Table(name = "person")
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,8 +23,8 @@ public class Person {
     @Column(nullable = false, unique = true)
     private String phone_number;
 
-    @Column()
-    private boolean isDeleted = false;
+    // @Column()
+    // private boolean isDeleted = false;
 
     public Person(String full_name, String address, String phone_number) {
         this.full_name = full_name;

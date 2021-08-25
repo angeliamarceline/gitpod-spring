@@ -41,8 +41,8 @@ public class PersonController {
         return personService.updatePerson(dto, id);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deletePerson(@PathVariable Integer id) {
-       return personService.deletePerson(id);
-    }
+    // @DeleteMapping("/delete/{id}")
+    // public ResponseEntity<?> deletePerson(@PathVariable Integer id) {
+    //    return personService.deletePerson(id);
+    // }
 }
