@@ -2,7 +2,6 @@ package id.example.javaSpring.controller;
 
 import id.example.javaSpring.model.dto.*;
 import id.example.javaSpring.model.entity.Person;
-import id.example.javaSpring.model.entity.Province;
 import id.example.javaSpring.repository.PersonRepository;
 import id.example.javaSpring.service.PersonServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
