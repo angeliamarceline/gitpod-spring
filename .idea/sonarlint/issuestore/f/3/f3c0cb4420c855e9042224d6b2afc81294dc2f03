@@ -1,0 +1,13 @@
+
+Bsquid:S1452-"&Remove usage of generic wildcard type.(¢ó§¶ûÿÿÿÿ
+Bsquid:S1452"&Remove usage of generic wildcard type.(˜õ½Æùÿÿÿÿ
+rsquid:UselessImportCheck"NRemove this unused import 'id.example.javaSpring.repository.PersonRepository'.(ÇÕ Ž
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔõµÂûÿÿÿÿ
+=squid:S1452("&Remove usage of generic wildcard type.(ÅÙÇÍ
+isquid:UselessImportCheck	"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+<squid:S1452"&Remove usage of generic wildcard type.(«¬Ÿ9
+Bsquid:S1452#"&Remove usage of generic wildcard type.(Å¦ë¹üÿÿÿÿ
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+jsquid:UselessImportCheck"FRemove this unused import 'id.example.javaSpring.model.entity.Person'.(—ª¹Ù
